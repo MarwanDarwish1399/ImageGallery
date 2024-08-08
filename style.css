@@ -1,0 +1,31 @@
+body{
+   background-color: red;
+   background-image: url("channels4_profile__1_-sRy2ImcZY-transformed-removebg-preview.png");
+ 
+   background-position-y: center;
+   background-position-y: 2%;
+   background-size: 20%;
+   
+   
+   
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    
+}
+.container img{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255,  255, 0.7);
+    
+}
+.container img:hover{
+    width: 100%;
+}
